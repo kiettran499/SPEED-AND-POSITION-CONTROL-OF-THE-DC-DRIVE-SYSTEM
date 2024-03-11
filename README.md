@@ -11,9 +11,11 @@
     - Open loop control as known as the system has no feedback loop in which the input signal is generated through the system and produce the output signal.     - In this task, we designed the open loop that can manage the speed of the rotor in the range 0 to 255 pwm and transfer to code then run and display by Arduino and the DC motor.
   - Closed loop:
     - Closed loop control is a control system in which the output affects the amount of input in such a way that the amount of input will adjust itself based on the output produced. For the closed loop control in this task, we are required to design a controller to control the speed of the DC motor. A potentiometer is applied to set the reference speed which is from 0 to maximum speed. The requirements for this controller are the speed error is under 3% and the overshoot of the step response is under 10% when step reference speed is half of the maximum speed.
+    - We chose PID controller as the controller of the closed loop control system. To find the gains of the PID controller, firstly we find the transfer function of the system. After the transfer function is got, we design the gains Kp, Ki, Kd of PID controller with the support of Tuning Software in MATLAB. Then we put the values of gain in the code that we generate in Arduino IDE. 
+
 <p align="center">
   <img width="500" src="https://github.com/kiettran499/SPEED-AND-POSITION-CONTROL-OF-THE-DC-DRIVE-SYSTEM/blob/main/block-diagram-for-control-system.png">
-    - We chose PID controller as the controller of the closed loop control system. To find the gains of the PID controller, firstly we find the transfer function of the system. After the transfer function is got, we design the gains Kp, Ki, Kd of PID controller with the support of Tuning Software in MATLAB. Then we put the values of gain in the code that we generate in Arduino IDE.
+
 - The second task is to control the position of the Rotor’s movement, there're 2 cases:
   - Closed loop:
     - In this task we designed the controller for the position control loop with step position reference from zero to 270 degree. And the requirements are the overshoot under 15%, steady stead error of less than 2 degrees. Similar to task 1 - Closed loop control, the transfer function and the gains of the PID controller are the same. The different is the code that we generate in Arduino to control the position instead of speed control.
