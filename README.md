@@ -1,4 +1,4 @@
-# SPEED-AND-POSITION-CONTROL-OF-THE-DC-DRIVE-SYSTEM
+# Speed-and-position-control-of-DC-drive-system
 
 <p align="center">
   <img width="500" src="https://github.com/kiettran499/SPEED-AND-POSITION-CONTROL-OF-THE-DC-DRIVE-SYSTEM/blob/main/sch_1.jpg">
