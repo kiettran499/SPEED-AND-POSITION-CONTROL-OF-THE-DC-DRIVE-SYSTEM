@@ -39,4 +39,4 @@
  
 ## Result
 
-- Demonstration video for line following, obstacle avoidance and Bluetooth control functions: https://youtu.be/9Wb20bIvZSg
+- Demonstration video: https://youtu.be/pQ0TkeWdJJc
